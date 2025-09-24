@@ -1125,10 +1125,95 @@ body {
     }
 }
 
-// Gallery Section with Carousel
+// Gallery Section with Project Cards and Carousel
 .gallery-section {
     padding: 6rem 0;
     background: $light-bg-secondary;
+}
+
+// Project Cards Grid
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 3rem 0 4rem 0;
+}
+
+.project-card {
+    background: $white;
+    border-radius: 15px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: $shadow;
+    transition: all 0.3s ease;
+    border: 1px solid $gray-light;
+    
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: $shadow-hover;
+    }
+    
+    .project-icon {
+        background: linear-gradient(135deg, $primary-color, $secondary-color);
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 1.5rem auto;
+        
+        i {
+            font-size: 2rem;
+            color: $white;
+        }
+    }
+    
+    h3 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: $text-color;
+        margin-bottom: 1rem;
+    }
+    
+    p {
+        color: $text-light;
+        line-height: 1.6;
+        margin-bottom: 1.5rem;
+        font-size: 1rem;
+    }
+    
+    .project-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        justify-content: center;
+        margin-bottom: 2rem;
+        
+        span {
+            background: $light-bg-tertiary;
+            color: $text-color;
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+    }
+    
+    .btn-project {
+        @include button-style($secondary-color);
+        width: 100%;
+        font-size: 0.9rem;
+        font-weight: 600;
+    }
+}
+
+.carousel-title {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: $text-color;
+    margin-bottom: 2rem;
 }
 
 .carousel-container {
