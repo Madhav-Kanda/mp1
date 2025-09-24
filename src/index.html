@@ -4,10 +4,494 @@
         <meta charset="utf-8" />
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>MP1</title>
+        <title>Madhav Patel - Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1>Hello World! Welcome to MP1!</h1>
-        <img src="assets/image.jpg">
+        <!-- Sticky Navigation -->
+        <nav id="navbar" class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="#home">MP</a>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#research" class="nav-link">Research</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#experience" class="nav-link">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#gallery" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#video" class="nav-link">Demo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Home Section -->
+        <section id="home" class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                <div class="hero-left">
+                    <h1 class="hero-title">Madhav Kanda</h1>
+                    <p class="hero-subtitle">Machine Learning & AI</p>
+                    <div class="hero-buttons">
+                        <a href="#research" class="btn btn-primary">View Research</a>
+                        <a href="#contact" class="btn btn-secondary">Collaborate</a>
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <div class="hero-visual">
+                        <div class="floating-card card-1">
+                            <i class="fas fa-brain"></i>
+                            <span>Multi-Agent AI</span>
+                        </div>
+                        <div class="floating-card card-2">
+                            <i class="fas fa-code"></i>
+                            <span>Probabilistic Programming</span>
+                        </div>
+                        <div class="floating-card card-3">
+                            <i class="fas fa-robot"></i>
+                            <span>LLM Research</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Research Section -->
+        <section id="research" class="research-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge">Research Focus</span>
+                    <h2 class="section-title">Current Research & Publications</h2>
+                    <p class="section-description">Exploring the intersection of multi-agent systems, probabilistic programming, and machine learning to solve complex real-world problems.</p>
+                </div>
+                
+                <div class="research-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-badge">2025</div>
+                        <div class="timeline-content">
+                            <h3>RefineStat: Efficient Exploration for Probabilistic Program Synthesis</h3>
+                            <p class="research-venue">Under Review • ICLR 2026</p>
+                            <p class="research-description">Developed validation checks for LLM-based code generation ensuring syntactic and semantic correctness in probabilistic program synthesis.</p>
+                            <div class="research-tags">
+                                <span>LLM</span>
+                                <span>Code Generation</span>
+                                <span>Probabilistic Programming</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-badge">2024</div>
+                        <div class="timeline-content">
+                            <h3>Multimodal Visual Reasoning Framework</h3>
+                            <p class="research-venue">In Progress • Multi-Agent Collaboration</p>
+                            <p class="research-description">Designing a multi-agent framework for complex visual reasoning using specialized modality-specific agents.</p>
+                            <div class="research-tags">
+                                <span>Computer Vision</span>
+                                <span>Multi-Agent Systems</span>
+                                <span>VLM</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-badge">2023</div>
+                        <div class="timeline-content">
+                            <h3>Satellite Imagery for Environmental Impact</h3>
+                            <p class="research-venue">Published • NeurIPS 2023 RealML Workshop</p>
+                            <p class="research-description">Active learning approach for brick kiln detection using transfer learning, identifying 700+ kilns for environmental impact assessment.</p>
+                            <div class="research-tags">
+                                <span>Applied ML</span>
+                                <span>Computer Vision</span>
+                                <span>Environmental AI</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="about-content-grid">
+                    <div class="about-left">
+                        <h2 class="section-title">About Me</h2>
+                        <p class="about-text">I'm a Master's student at UIUC passionate about advancing AI through rigorous research. My work spans multi-agent systems, probabilistic programming, and practical applications of machine learning to solve real-world challenges.</p>
+                        <p class="about-text">Currently, I'm a Research Intern at Microsoft Research, where I develop multi-agent orchestration systems for cloud incident management. My research has been recognized at top-tier venues and I'm committed to open-source contributions.</p>
+                        
+                        <div class="about-highlights">
+                            <div class="highlight-item">
+                                <i class="fas fa-award"></i>
+                                <span>Acknowledged in "Probabilistic Machine Learning: Advanced Topics"</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-trophy"></i>
+                                <span>Gold Medalist & Dean's List at IIT Gandhinagar</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-chalkboard-teacher"></i>
+                                <span>Teaching Assistant for CS 225 at UIUC</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-right">
+                        <div class="education-timeline">
+                            <h3>Education Journey</h3>
+                            
+                            <div class="edu-item">
+                                <div class="edu-logo">
+                                    <div class="logo-placeholder uiuc">UIUC</div>
+                                </div>
+                                <div class="edu-details">
+                                    <h4>University of Illinois, Urbana-Champaign</h4>
+                                    <p>Master of Science in Computer Science</p>
+                                    <span class="edu-period">2024 - 2026 • GPA: 4.0/4.0</span>
+                                </div>
+                            </div>
+                            
+                            <div class="edu-item">
+                                <div class="edu-logo">
+                                    <div class="logo-placeholder iit">IIT-GN</div>
+                                </div>
+                                <div class="edu-details">
+                                    <h4>Indian Institute of Technology, Gandhinagar</h4>
+                                    <p>Bachelor of Technology with Honours in CS</p>
+                                    <span class="edu-period">2020 - 2024 • GPA: 9.16/10.0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience-section">
+            <div class="container">
+                <h2 class="section-title">Professional Experience</h2>
+                <div class="experience-list">
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <div class="company-info">
+                                <div class="company-logo">
+                                    <div class="logo-placeholder microsoft">MS</div>
+                                </div>
+                                <div class="company-details">
+                                    <h3>Microsoft Research, Redmond</h3>
+                                    <span class="position">Research Intern | Multi-agentic Systems</span>
+                                    <p class="work-description">Improved a multi-agent orchestration system that converts troubleshooting guides into executable DAG workflows for cloud incident management.</p>
+                                </div>
+                            </div>
+                            <div class="date-location">
+                                <span class="date">May'25 – Present</span>
+                                <span class="location">Redmond, WA</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <div class="company-info">
+                                <div class="company-logo">
+                                    <div class="logo-placeholder aalto">AU</div>
+                                </div>
+                                <div class="company-details">
+                                    <h3>Aalto University, Finland</h3>
+                                    <span class="position">Research Assistant | Bayesian Inference</span>
+                                    <p class="work-description">Modified Hamiltonian Monte Carlo by learning non-linear reparameterization, leading to 70% improvement over existing methods.</p>
+                                </div>
+                            </div>
+                            <div class="date-location">
+                                <span class="date">May'23 – July'23</span>
+                                <span class="location">Espoo, Finland</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <div class="company-info">
+                                <div class="company-logo">
+                                    <div class="logo-placeholder iisc">IISc</div>
+                                </div>
+                                <div class="company-details">
+                                    <h3>Indian Institute of Science</h3>
+                                    <span class="position">Research Intern | NLP</span>
+                                    <p class="work-description">Enhanced pronunciation of Indian proper nouns using seq2seq models, achieving 91.11% accuracy.</p>
+                                </div>
+                            </div>
+                            <div class="date-location">
+                                <span class="date">May'22 – Jul'22</span>
+                                <span class="location">Bengaluru, India</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills & Expertise Section -->
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2 class="section-title">Technical Expertise</h2>
+                
+                <div class="skills-grid">
+                    <div class="skill-domain">
+                        <div class="domain-header">
+                            <i class="fas fa-brain"></i>
+                            <h3>Machine Learning & AI</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <span class="skill-name">PyTorch & TensorFlow</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">JAX & NumPy</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">LangChain & RAG</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-domain">
+                        <div class="domain-header">
+                            <i class="fas fa-code"></i>
+                            <h3>Programming Languages</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <span class="skill-name">Python</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 98%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">C++ & C</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 88%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">JavaScript & TypeScript</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-domain">
+                        <div class="domain-header">
+                            <i class="fas fa-server"></i>
+                            <h3>Systems & Tools</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <span class="skill-name">Docker & Kubernetes</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Apache Spark & Kafka</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 82%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">PostgreSQL & Redis</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 88%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-domain">
+                        <div class="domain-header">
+                            <i class="fas fa-cloud"></i>
+                            <h3>Research Areas</h3>
+                        </div>
+                        <div class="research-areas">
+                            <div class="research-tag">Multi-Agent Systems</div>
+                            <div class="research-tag">Probabilistic Programming</div>
+                            <div class="research-tag">Computer Vision</div>
+                            <div class="research-tag">Natural Language Processing</div>
+                            <div class="research-tag">Bayesian Inference</div>
+                            <div class="research-tag">Distributed Systems</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Gallery Section with Carousel -->
+        <section id="gallery" class="gallery-section">
+            <div class="container">
+                <h2 class="section-title">Research Portfolio</h2>
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <div class="carousel-slide active">
+                            <div class="slide-content">
+                                <i class="fas fa-brain carousel-icon"></i>
+                                <h3>Multi-Agent AI Systems</h3>
+                                <p>Developing sophisticated multi-agent frameworks for complex problem-solving and collaborative intelligence.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <div class="slide-content">
+                                <i class="fas fa-code carousel-icon"></i>
+                                <h3>Probabilistic Programming</h3>
+                                <p>Advancing probabilistic program synthesis with LLM-based code generation and validation techniques.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <div class="slide-content">
+                                <i class="fas fa-satellite carousel-icon"></i>
+                                <h3>Environmental AI</h3>
+                                <p>Leveraging computer vision and machine learning for environmental impact assessment and monitoring.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <div class="slide-content">
+                                <i class="fas fa-cogs carousel-icon"></i>
+                                <h3>Cloud Infrastructure</h3>
+                                <p>Building scalable cloud-native systems for distributed computing and incident management.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-btn prev-btn">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="carousel-btn next-btn">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                    <div class="carousel-indicators">
+                        <span class="indicator active" data-slide="0"></span>
+                        <span class="indicator" data-slide="1"></span>
+                        <span class="indicator" data-slide="2"></span>
+                        <span class="indicator" data-slide="3"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video Section -->
+        <section id="video" class="video-section">
+            <div class="container">
+                <h2 class="section-title">Research Demo</h2>
+                <div class="video-container">
+                    <div class="video-wrapper">
+                        <video controls poster="assets/ai-network.jpg">
+                            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                            Your browser does not support the HTML5 video tag.
+                        </video>
+                    </div>
+                    <div class="video-description">
+                        <h3>Multi-Agent Research Overview</h3>
+                        <p>This video showcases our latest research in multi-agent systems, demonstrating real-world applications in cloud infrastructure management and collaborative AI problem-solving approaches.</p>
+                        <div class="video-tags">
+                            <span>Multi-Agent Systems</span>
+                            <span>Research Demo</span>
+                            <span>AI Collaboration</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="section-title">Let's connect</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <p class="contact-intro">Building something, hiring, or up for a collab?<br>I'm interested. Reach me here.</p>
+                        <div class="contact-links">
+                            <a href="mailto:madhav3@illinois.edu" class="contact-link">
+                                <i class="fas fa-envelope"></i>
+                                <span>madhav3@illinois.edu</span>
+                            </a>
+                            <a href="https://linkedin.com/in/madhav-kanda" class="contact-link">
+                                <i class="fab fa-linkedin"></i>
+                                <span>madhav-kanda</span>
+                            </a>
+                            <a href="https://github.com/Madhav-Kanda" class="contact-link">
+                                <i class="fab fa-github"></i>
+                                <span>Madhav-Kanda</span>
+                            </a>
+                        </div>
+                        
+                        <div class="social-media-section">
+                            <h3>Follow My Research</h3>
+                            <div class="social-icons">
+                                <a href="https://twitter.com/madhav_kanda_" class="social-icon" aria-label="Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="https://scholar.google.com/citations?user=C4XcgJ4AAAAJ&hl=en&oi=ao" class="social-icon" aria-label="Google Scholar">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="documents-section">
+                        <h3>Documents</h3>
+                        <div class="document-links">
+                            <a href="#" class="document-btn">View Resume</a>
+                            <a href="#" class="document-btn">View Transcript</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <p>&copy; Madhav Kanda. All rights reserved.</p>
+                    <a href="#home" class="scroll-top">↑</a>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Modals -->
+        <div id="modal-overlay" class="modal-overlay">
+            <div class="modal">
+                <span class="modal-close">&times;</span>
+                <div id="modal-content" class="modal-content">
+                    <!-- Modal content will be dynamically inserted here -->
+                </div>
+            </div>
+        </div>
     </body>
 </html>
